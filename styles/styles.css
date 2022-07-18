@@ -373,7 +373,6 @@ footer {
 #redes {
 	grid-area: redes;
 	display: flex;
-
 }
 
  #cafefm {
@@ -398,6 +397,12 @@ footer {
 
 .img__figure {
 	width: 250px;
+	transition: all 600ms;
+	}
+
+	.img__figure:hover {
+		transform: scale(1.1);
+		
 }
 
  figcaption {
