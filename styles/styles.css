@@ -215,6 +215,20 @@ footer {
 		margin: auto;
   }
 
+  .cajas__cafe {
+ 	width: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 1rem 0.8rem;
+	justify-content: space-evenly;
+  }	
+
+  #redes {
+  	display: flex;
+	flex-flow: row nowrap;
+	margin: 1rem 0.8rem;
+  }
+
 	footer {
 	grid-template-rows: 30px 400px 50px 980px 40px;
 	width: auto;
