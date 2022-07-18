@@ -24,7 +24,8 @@ nav {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	background: grey;
+	background: rgb(122,112,121);
+	background: linear-gradient(90deg, rgba(122,112,121,0.8883928571428571) 20%, rgba(65,47,45,0.7819502801120448) 51%, rgba(75,61,57,0.7763480392156863) 69%);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -51,10 +52,20 @@ nav {
 	  flex-direction: column;
 	  text-transform: uppercase;
 	}
-	  
 
-	a:hover {
-	  color: #614F4F;
+	a::after {
+	  content: "";
+	  display: block;
+	  height: 4px;
+	  background-color: black;
+	  transform: scale(0,1);
+	  transform-origin: center;
+	  transition: transform .5s;
+	  
+	}
+
+	a:hover::after {
+	  transform: scale(1,1);
 	}
 
 	.text-dec {
@@ -204,9 +215,8 @@ footer {
 		margin: auto;
   }
 
-	.cajas__cafe {
-	display: flex;
-	flex-direction: row;	
+	footer {
+	grid-template-rows: 30px 400px 50px 980px 40px;
 	width: auto;
 	padding-left: 0rem;
 	}
@@ -243,8 +253,6 @@ footer {
 	font-size: 1.2rem;
 	}
 
-
-
 } 
 
 
@@ -271,6 +279,14 @@ footer {
 		width: 100%;
 		margin: auto;
 	}
+
+	.img__cafeteras{
+		transition: all 600ms;
+	}
+
+	.img__cafeteras:hover {
+		transform: scale(1.1);
+		}
 
 	.cajas__preparacion {
 		width: 50%;
