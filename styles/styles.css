@@ -321,22 +321,8 @@ footer {
 	#redes {
 		margin-bottom: 1rem;
 		padding-right: 10px;
-		}
-
-		.imagenpie {
-		width: auto;
-		}
-
- .formulario {
- 	width: 50%;
- 	justify-content: flex-start;
 	}
 
-	footer 
-
-	.footer-flex {
-		flex-flow: row nowrap;
-	}
 
 	.cajas__cafe {
  	width: auto;
@@ -347,36 +333,26 @@ footer {
  }
 
  #seguir {
-	grid-area: seguir;
 	text-align: center;
 }
 
-#img-footer {
-	grid-area: img-footer;
-}
-
 #frase {
-	grid-area: frase;
 	text-align: center;
 }
 
 #redes {
-	grid-area: redes;
 	display: flex;
 }
 
  #cafefm {
- 	grid-area: cafefm;
  	padding: 0.2rem;
  }
 
   #delirante {
- 	grid-area: delirante;
  	padding: 0 0.2rem;
  }
 
   #cafemt {
-	grid-area: cafemt;
  	padding: 0.2rem;
  }
 
